@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Notícias RPD - Campo, Cidade e Plantação de Soja</title>
+    <title>Campo Cidade Plantação de Soja</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -11,71 +11,69 @@
             margin: 0;
             padding: 0;
         }
-
         header {
-            background-color: #0b3d91;
+            background-color: #3c8d40;
             color: white;
-            padding: 20px;
             text-align: center;
+            padding: 10px 0;
         }
-
-        h1 {
-            font-size: 2.5em;
-        }
-
-        section {
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
             padding: 20px;
         }
-
-        .content {
-            background-color: white;
-            margin: 20px auto;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            max-width: 1200px;
-        }
-
-        .content h2 {
-            font-size: 2em;
-            margin-bottom: 10px;
-        }
-
-        .content p {
-            font-size: 1.2em;
-            line-height: 1.6em;
-        }
-
-        .content img {
-            max-width: 100%;
-            height: auto;
-            margin: 15px 0;
-            border-radius: 8px;
-        }
-
-        footer {
-            background-color: #333;
-            color: white;
-            padding: 10px;
+        .image-frame {
             text-align: center;
-        }
-
-        .news-item {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
-        }
-
-        .news-item div {
-            width: 48%;
             margin-bottom: 20px;
         }
-
+        .image-frame img {
+            width: 100%;
+            max-width: 800px;
+            border: 5px solid #333;
+        }
+        h2 {
+            color: #2a2a2a;
+        }
+        .content {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+        .content div {
+            width: 48%;
+        }
+        ul {
+            list-style-type: square;
+            padding-left: 20px;
+        }
     </style>
 </head>
 <body>
-
-<header>
-    <h1>Notícias RP
-
-    
+    <header>
+        <h1>Campo Cidade Plantação de Soja</h1>
+    </header>
+    <div class="container">
+        <div class="image-frame">
+            <img src="CAMINHO/DA/IMAGEM.jpg" alt="Campo de soja">
+        </div>
+        <div class="content">
+            <div>
+                <h2>Vantagens</h2>
+                <ul>
+                    <li>Alta produtividade</li>
+                    <li>Demanda crescente para consumo interno e exportação</li>
+                    <li>Possibilidade de diversificação na agricultura</li>
+                </ul>
+            </div>
+            <div>
+                <h2>Desvantagens</h2>
+                <ul>
+                    <li>Impacto ambiental (desmatamento, uso excessivo de agroquímicos)</li>
+                    <li>Alta dependência de insumos químicos</li>
+                    <li>Vulnerabilidade a pragas e doenças</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
